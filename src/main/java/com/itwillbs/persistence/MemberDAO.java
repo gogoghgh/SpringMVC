@@ -1,4 +1,4 @@
-package com.itwillbs.persistance;
+package com.itwillbs.persistence;
 
 import java.util.List;
 

@@ -12,8 +12,8 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.itwillbs.domain.MemberVO;
-import com.itwillbs.persistance.MemberDAO;
-import com.itwillbs.persistance.MemberDAOImpl;
+import com.itwillbs.persistence.MemberDAO;
+import com.itwillbs.persistence.MemberDAOImpl;
 
 @RunWith(SpringJUnit4ClassRunner.class) // 모드 체인쥐~!!!!! 해당 파일을 스프링(Junit)을 사용해서 테스트하도록 설정한다~~~ 
 @ContextConfiguration(
