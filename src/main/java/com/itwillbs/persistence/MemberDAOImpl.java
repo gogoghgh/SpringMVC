@@ -25,9 +25,9 @@ import com.itwillbs.domain.MemberVO;
 public class MemberDAOImpl implements MemberDAO {
 	// DB에 관련된 동작을 수행
 	
-	private static final Logger log = LoggerFactory.getLogger(MemberDAOImpl.class);
-	
+	// 멤버 변수 구간 =================================================
 
+	private static final Logger log = LoggerFactory.getLogger(MemberDAOImpl.class);
 	
 	// DB 연결 + MyBatis 설정 + 자원해제까지!!! ㄷㄷㄷ 한방에 하는 올인원 객체 
 	// 1.
@@ -49,6 +49,8 @@ public class MemberDAOImpl implements MemberDAO {
 	// 2. 
 	@Inject
 	private SqlSessionFactory factory;
+	// 멤버 변수 구간 끝 =================================================
+
 	
 	
 	@Override
@@ -74,6 +76,7 @@ public class MemberDAOImpl implements MemberDAO {
 		
 		return now; // null이었넴^^;;;;
 	}// getTime 끝
+	
 	
 	
 	// 1. 회원 가입 메서드 insertMember
