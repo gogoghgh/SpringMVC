@@ -13,7 +13,8 @@
 		<legend>회원 가입</legend>
 		
 <!-- 		<form action="/member/insertPro" method="post"> -->
-		<form action="/member/insert" method="post">  <!--   ==> MemberController_insertPOST() 메서드가 호출되겠구만~~~!! -->
+		<form action="/member/insert" method="post">  
+								<!--       ㄴ ==> MemberController_insertPOST() 메서드가 호출되겠구만~~~!! -->
 	<!--      action="컨트롤러 주소/이동페이지 주소" (권장)
 	          action="./이동페이지 주소"             (노 권장)
 	          action="./insertPro"                     ㄴ이유: 상대 주소라서,, 정확하지 않음!! 

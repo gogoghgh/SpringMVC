@@ -11,10 +11,12 @@
 	
 	<fieldset>
 		<legend> 로 그 인 </legend>
-			<form action="/member/loginPro" method="post">
+			<form action="/member/login" method="post">
 				아이디: <input type="text" name="userid"> <br>
-				비이번: <input type="password" name="userpass"> <br>
+				비이번: <input type="password" name="userpw"> <br>
 				<input type="submit" value="로그인">
+				<input type="button" value="회원가입" onclick="location.href='/member/insert';">
+				
 			</form>
 	</fieldset>
 
